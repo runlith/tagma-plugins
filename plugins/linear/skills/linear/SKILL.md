@@ -40,4 +40,4 @@ Linear's remote MCP server acts as the person who signed in to it, in the one wo
 
 ## When the tools are missing
 
-If no Linear tools are offered, or a call answers that authorization is required, the server is not signed in. Ask the person to sign in to it. Never ask them for a token in the conversation.
+Linear tools missing from what you are offered do not by themselves mean the server is signed out: the client may load tools only on request, or the server may be switched off, still connecting or failing. Look the tools up first where the client offers a tool search. When the server reports that it needs a sign-in, or a call answers that authorization is required, ask the person to sign in to it. Otherwise tell them the state the client reports for the server. Never ask them for a token in the conversation.
